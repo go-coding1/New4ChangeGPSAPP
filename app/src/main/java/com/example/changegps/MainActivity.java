@@ -244,7 +244,7 @@ public class MainActivity extends AppCompatActivity {
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
-
+//
                 }
                 Log.d("TAG","UPDATEGPS3");
                 mDatabase.child("finish").child(nowtime).setValue("finished");
